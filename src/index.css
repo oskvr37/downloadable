@@ -3,6 +3,8 @@
 
   --primary: #b00b69;
   --secondary: #444;
+  --error: #ee3300;
+
   --background: #111;
 
   --border: 1px solid var(--primary);
@@ -32,7 +34,7 @@ p {
   color: var(--secondary);
 }
 
-input[type="text"] {
+input[type="url"] {
   width: 100%;
   padding: 1rem;
 
@@ -48,8 +50,13 @@ input[type="text"] {
   transition: all 200ms ease;
 }
 
-input[type="text"]:focus-visible {
+input[type="url"]:focus-visible {
   border-color: var(--primary);
+}
+
+.invalid {
+  color: var(--error) !important;
+  border-color: var(--error) !important;
 }
 
 .container {

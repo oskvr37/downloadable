@@ -1,3 +1,5 @@
+import  { Download } from "./components";
+
 function App() {
   return (
     <main>
@@ -11,12 +13,8 @@ function App() {
             </a>
           </p>
         </div>
-        <input
-          id="url"
-          type="text"
-          placeholder="https://streamable.com/abcdef"
-        ></input>
-        <p>Download will start automatically after pasting in the url</p>
+        <Download />
+        <p>Download will start automatically after pasting the URL</p>
       </div>
     </main>
   );
