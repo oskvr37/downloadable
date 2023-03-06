@@ -1,5 +1,6 @@
 :root {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
+  font-size: 1.2em;
 
   --primary: #b00b69;
   --secondary: #444;
@@ -35,13 +36,15 @@ p {
 }
 
 input[type="url"] {
+  margin: 1rem 0;
   width: 100%;
   padding: 1rem;
-
+  
   border: var(--border);
   border-radius: 0.5rem;
   border-color: var(--secondary);
-
+  
+  font-family: inherit;
   color: var(--primary);
   background-color: var(--background);
 
@@ -72,9 +75,15 @@ input[type="url"]:focus-visible {
 .header {
   display: flex;
   flex-wrap: wrap;
-
-  gap: 1rem;
-
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
+}
+
+.logo {
+  height: 3rem;
+}
+
+.header h1 {
+  margin-right: auto;
 }

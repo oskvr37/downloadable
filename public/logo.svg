@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg210"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview190"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   showgrid="false"/>
+<defs>
+  <linearGradient
+     id="grad"
+     x1="70"
+     y1="65"
+     x2="10"
+     y2="0"
+     gradientUnits="userSpaceOnUse"
+     >
+    <stop
+       offset="0%"
+       stop-color="#b00b69"/>
+    <stop
+       offset="100%"
+       stop-color="#753a77"/>
+  </linearGradient>
+</defs>
+<path
+   id="circle208"
+   style="display:inline;fill:url(#grad)"
+   d="M 60,0 V 70 L 75,50 H 90 L 50,100 10,50 H 25 L 40,70 V 0 C 0,0 0,0 0,50 c 0,50 0,50 50,50 50,0 50,0 50,-50 C 100,0 100,0 60,0 Z"/>
+</svg>
