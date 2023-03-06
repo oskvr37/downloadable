@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<linearGradient id="a" x1="70" x2="10" y1="65" gradientUnits="userSpaceOnUse">
-<stop stop-color="#b00b69" offset="0"/>
-<stop stop-color="#753a77" offset="1"/>
+<linearGradient id="a" x1="25" x2="25" y1="100" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0b45b0" offset="0"/>
+<stop stop-color="#0ba5b0" offset="1"/>
 </linearGradient>
 </defs>
 <path d="m60 0v70l16-15h19l-45 45-45-45h20l15 15v-70c-40 0-40 0-40 50s0 50 50 50 50 0 50-50 0-50-40-50z" fill="url(#a)"/>
