@@ -34,4 +34,6 @@ jobs:
           echo test, and deploy your project.
 
       - name: Build app
-        run: npm run build
+        run: |
+          npm run build,
+          npm run preview
